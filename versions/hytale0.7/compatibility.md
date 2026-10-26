@@ -20,9 +20,11 @@ Shrinking, charge rules, aimed animal targeting, normal miniature reload, obstru
 growth and emergency self recovery have native observations. The latest ray model's
 mount, first-person framing and inventory/hotbar icon have also been checked.
 
-Ordinary cave acquisition/crafting, complete skin/camera behavior, all-angle model
-and beam visuals, human listening and real second-client behavior remain unverified.
-Do not treat the private build as a finished multiplayer or survival release.
+The corrected ore deposits cover all six faces, and their native surfaces and
+inventory/hotbar icon have been checked. Single-player playtesting is complete for
+the observed ray loop. The full ordinary survival acquisition route, complete
+skin/camera behavior, beam/listening coverage and real second-client behavior remain
+unverified; the Release channel does not establish those additional checks.
 
 ## Settings and other mods
 

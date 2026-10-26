@@ -27,3 +27,7 @@ time while you remain small.
 The item IDs are **SH_Ray**, **SH_Crystal** and **SH_Ore_Stone**. They can help identify
 an asset when reporting a problem; the player-facing names are Shrink Ray, Shrinkium
 Crystal and Shrinkium Crystal Ore.
+
+![The Shrink Ray and purple crystal ore in native Hytale](/assets/hytale0.7/screenshots/ray-and-ore.png)
+
+*Native Hytale 0.7.4. The placed ore has raised crystal deposits on all six faces.*

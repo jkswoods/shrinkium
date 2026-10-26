@@ -8,7 +8,7 @@ Carry a crystal-powered ray, choose a size and explore familiar spaces at a diff
 ::: button title:"Start here" url:"installation" icon:download
 ::: /hero
 
-![Shrink Ray held in the world](/assets/hytale0.7/screenshots/ray-in-hand.png)
+![Shrink Ray held in the world](/assets/hytale0.7/screenshots/ray-and-ore.png)
 
 *Native Hytale 0.7.4. The brass cage, violet crystal reactor and walnut grip are the
 current in-game ray model.*
@@ -23,9 +23,10 @@ restoration. See [first steps](getting-started.md) for the full route and its cu
 playtest limits, [recipes](recipes.md) for quantities, and [safe restoration](restoration.md)
 before trying a narrow passage.
 
-::: callout type:warning title:"Private development"
-Use a backed-up test world. Ordinary cave acquisition/crafting, full camera behavior,
-visual/listening acceptance and real second-client behavior remain unfinished.
+::: callout type:warning title:"Before you play"
+Keep world and player backups. The ray and corrected ore have been playtested in
+single-player. The full ordinary survival acquisition route and real second-client
+behavior remain unverified.
 After free restoration the ray may be hidden; change hotbar slots and select it again.
 ::: /callout
 

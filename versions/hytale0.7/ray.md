@@ -15,8 +15,7 @@ title: Using the ray
 
 ![The native size panel](/assets/hytale0.7/screenshots/ray-controls.png)
 
-*Native Hytale 0.7.4. The controls are unchanged; this earlier capture shows the previous
-ray appearance. The world and held-model pages show the current artwork.*
+*Native Hytale 0.7.4: choose a size, use SELF, or select restoration for the next activation.*
 
 ## Charge rules
 

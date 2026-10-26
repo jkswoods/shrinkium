@@ -31,7 +31,7 @@ guide as proof of a finished survival progression.
 4. Move around the open area and check your view and clearance.
 5. Return to clear space and use the [restoration instructions](restoration.md).
 
-![Quarter-size viewpoint](/assets/hytale0.7/screenshots/quarter-size.png)
+![Quarter-size viewpoint](/assets/hytale0.7/screenshots/quarter-view.png)
 
 *Native Hytale 0.7.4: selecting 25% and using SELF lowers the viewpoint. The crystal
 count changes from 8 to 7. This test location was supplied with items; it does not
