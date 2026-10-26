@@ -37,3 +37,9 @@ merging. Contributors cannot push directly or force-push support/docs branches.
 The repository owner's own work may be pushed directly. This owner-only exception
 does not extend to contributors or release automation; contributor PRs still need the
 owner's review. Maintainers handle forward/back ports and corresponding versioned docs.
+
+## Current GitHub enforcement
+
+This private repository currently uses a GitHub plan that cannot enable branch
+rulesets. Owner review remains the contribution policy, but GitHub does not enforce
+the requested review/force-push/deletion ruleset here. CODEOWNERS records the reviewer.
