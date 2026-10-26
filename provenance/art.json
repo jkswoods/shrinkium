@@ -3,8 +3,8 @@
   "promotional_images": {
     "provider": "OpenAI image generation",
     "banner": "Original Shrinkium cinematic artwork using the ray source model and suite style reference",
-    "logo": "Original crystal/brass cage identity"
+    "logo": "Cinematic square with the actual brass/plum Shrink Ray and large SHRINKIUM title, matched to the approved mod publishing family"
   },
-  "native_screenshots": "Curated Hytale0.7.4 captures. ray-controls shows the unchanged controls with the earlier ray appearance; ray-in-hand and quarter-size show the current model.",
+  "native_screenshots": "Curated Hytale 0.7.4 captures: ray-and-ore, ray-controls and quarter-view show the current corrected ore/ray; older quarter-size and ray-in-hand captures are retained as earlier observations. Native staged placements are gameplay captures, separate from promotional artwork.",
   "stock_assets": "Native Hytale assets are referenced by asset ID and are not included as game files. Screenshots and the rendered native stone host depict Hytale content."
 }
