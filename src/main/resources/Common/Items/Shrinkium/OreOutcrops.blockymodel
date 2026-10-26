@@ -320,6 +320,327 @@
         "doubleSided": false,
         "shadingMode": "standard"
       }
+    },
+    {
+      "id": "outcrop-bottom",
+      "name": "outcrop-bottom",
+      "position": {
+        "x": -6,
+        "y": 0,
+        "z": -1
+      },
+      "orientation": {
+        "x": 0.9572858186504815,
+        "y": 0.1526340317125777,
+        "z": 0.1974583584717732,
+        "w": -0.14600311792381007
+      },
+      "shape": {
+        "type": "box",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "stretch": {
+          "x": 0.375,
+          "y": 0.46875,
+          "z": 0.34375
+        },
+        "settings": {
+          "size": {
+            "x": 32,
+            "y": 32,
+            "z": 32
+          }
+        },
+        "textureLayout": {
+          "front": {
+            "offset": {
+              "x": 192,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0
+          },
+          "back": {
+            "offset": {
+              "x": 192,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0
+          },
+          "left": {
+            "offset": {
+              "x": 192,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0
+          },
+          "right": {
+            "offset": {
+              "x": 192,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0
+          },
+          "top": {
+            "offset": {
+              "x": 192,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0
+          },
+          "bottom": {
+            "offset": {
+              "x": 192,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0
+          }
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "standard"
+      }
+    },
+    {
+      "id": "outcrop-back",
+      "name": "outcrop-back",
+      "position": {
+        "x": -7,
+        "y": 19,
+        "z": 15
+      },
+      "orientation": {
+        "x": -0.14999536106990918,
+        "y": 0.9385387758176573,
+        "z": -0.30784831909366006,
+        "w": -0.043310164804681764
+      },
+      "shape": {
+        "type": "box",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "stretch": {
+          "x": 0.375,
+          "y": 0.40625,
+          "z": 0.34375
+        },
+        "settings": {
+          "size": {
+            "x": 32,
+            "y": 32,
+            "z": 32
+          }
+        },
+        "textureLayout": {
+          "front": {
+            "offset": {
+              "x": 192,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0
+          },
+          "back": {
+            "offset": {
+              "x": 192,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0
+          },
+          "left": {
+            "offset": {
+              "x": 192,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0
+          },
+          "right": {
+            "offset": {
+              "x": 192,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0
+          },
+          "top": {
+            "offset": {
+              "x": 192,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0
+          },
+          "bottom": {
+            "offset": {
+              "x": 192,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0
+          }
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "standard"
+      }
+    },
+    {
+      "id": "outcrop-right",
+      "name": "outcrop-right",
+      "position": {
+        "x": 15,
+        "y": 9,
+        "z": -4
+      },
+      "orientation": {
+        "x": -0.23433200535410204,
+        "y": 0.9320079649390675,
+        "z": -0.15428524524670487,
+        "w": -0.22944656819405074
+      },
+      "shape": {
+        "type": "box",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "stretch": {
+          "x": 0.375,
+          "y": 0.4375,
+          "z": 0.3125
+        },
+        "settings": {
+          "size": {
+            "x": 32,
+            "y": 32,
+            "z": 32
+          }
+        },
+        "textureLayout": {
+          "front": {
+            "offset": {
+              "x": 192,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0
+          },
+          "back": {
+            "offset": {
+              "x": 192,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0
+          },
+          "left": {
+            "offset": {
+              "x": 192,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0
+          },
+          "right": {
+            "offset": {
+              "x": 192,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0
+          },
+          "top": {
+            "offset": {
+              "x": 192,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0
+          },
+          "bottom": {
+            "offset": {
+              "x": 192,
+              "y": 0
+            },
+            "mirror": {
+              "x": false,
+              "y": false
+            },
+            "angle": 0
+          }
+        },
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": false,
+        "shadingMode": "standard"
+      }
     }
   ],
   "format": "character",

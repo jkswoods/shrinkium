@@ -48,6 +48,16 @@ def node(name,pos,size,mat,rot=(0,0,0)):
  x,y=tiles[mat];return {'id':name,'name':name,'position':dict(zip('xyz',pos)),'orientation':quat(*rot),'shape':{'type':'box','offset':{'x':0,'y':0,'z':0},'stretch':dict(zip('xyz',[v/32 for v in size])),'settings':{'size':{'x':32,'y':32,'z':32}},'textureLayout':{f:{'offset':{'x':x,'y':y},'mirror':{'x':False,'y':False},'angle':0} for f in ['front','back','left','right','top','bottom']},'unwrapMode':'custom','visible':True,'doubleSided':False,'shadingMode':'standard'}}
 crystal=[node('shard',(0,8,0),(10,19,9),'crystal',(10,25,-13)),node('tip',(-1,18,0),(6,8,6),'crystal',(10,25,-30)),node('fracture',(4,5,1),(5,10,5),'aperture',(18,-20,15))]
 ore=[node('outcrop-top',(-6,32,1),(12,15,11),'crystal',(14,25,-15)),node('outcrop-front',(7,19,-15),(12,13,11),'crystal',(35,10,-15)),node('outcrop-left',(-15,9,4),(12,14,10),'crystal',(12,30,-25))]
+# Rotate each existing deposit around the stone cube's centre to cover its opposite face.
+# Left-multiply the half-turn so both placement and local crystal orientation rotate together.
+from copy import deepcopy
+for original,name,axis in [(ore[0],'outcrop-bottom','x'),(ore[1],'outcrop-back','y'),(ore[2],'outcrop-right','y')]:
+ opposite=deepcopy(original);opposite['id']=opposite['name']=name;p=opposite['position'];q=opposite['orientation'];x,y,z,w=[q[k] for k in 'xyzw']
+ if axis=='x':
+  p['y'],p['z']=32-p['y'],-p['z'];values=(w,-z,y,-x)
+ else:
+  p['x'],p['z']=-p['x'],-p['z'];values=(z,w,-x,-y)
+ opposite['orientation']=dict(zip('xyzw',values));ore.append(opposite)
 # Render actual exported face UV regions, not a separate artist's illustration.
 def rotation(q):
  x,y,z,w=[q[k] for k in 'xyzw'];return np.array([[1-2*(y*y+z*z),2*(x*y-z*w),2*(x*z+y*w)],[2*(x*y+z*w),1-2*(x*x+z*z),2*(y*z-x*w)],[2*(x*z-y*w),2*(y*z+x*w),1-2*(x*x+y*y)]])

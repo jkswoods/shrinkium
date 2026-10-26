@@ -32,7 +32,7 @@ def main():
     manifest = {
         'Group': 'Shrinkium', 'Name': 'Shrinkium', 'Version': config['version'],
         'ServerVersion': config['serverVersion'],
-        'Description': 'Private crystal-powered shrinking ray prototype; native acceptance pending.',
+        'Description': 'A crystal-powered ray for shrinking yourself and living creatures.',
         'Main': 'dev.shrinkium.ShrinkiumPlugin', 'IncludesAssetPack': True,
     }
     resources = ROOT / 'src/main/resources'

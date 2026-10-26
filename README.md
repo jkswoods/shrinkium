@@ -5,13 +5,13 @@
 Explore Hytale from a smaller point of view with a crystal-powered ray, three target
 sizes and a way back to your original size.
 
-**Hytale 0.7 · declared compatibility >=0.7.4 <0.8.0 · private development**
+**Hytale 0.7 · declared compatibility >=0.7.4 <0.8.0 · single-player playtested**
 
 [Player guide](https://github.com/jkswoods/shrinkium/blob/docs/versions/hytale0.7/index.md)
 · [Available files](https://github.com/jkswoods/shrinkium/releases)
 · [Report an issue](https://github.com/jkswoods/shrinkium/issues)
 
-![The current Shrink Ray held in Hytale](assets/screenshots/ray-in-hand.png)
+![The Shrink Ray beside the corrected crystal ore in Hytale](assets/screenshots/ray-and-ore.png)
 
 *Native Hytale 0.7.4 capture. The banner above is promotional artwork.*
 
@@ -28,8 +28,8 @@ sizes and a way back to your original size.
 The implemented acquisition route places Shrinkium Crystal Ore in newly generated
 default-world stone caves. Each ore drops two crystals. At **Workbench → Tools**, the
 ray recipe takes **6 Iron Bars, 4 Copper Bars and 2 Shrinkium Crystals**, with a
-four-second crafting time. The full ordinary mining/crafting route still needs native
-playtesting; this is a development build, so use a separate backed-up world.
+four-second crafting time. The full ordinary survival mining/crafting route remains unverified; keep a world
+and player backup. Crystal deposits now cover every ore face.
 
 **Primary** fires the ray. **Secondary** opens its size controls. Choose a size, then
 close the panel and aim, or choose **SELF** to apply it to yourself. **RESTORE ORIGINAL**
@@ -37,7 +37,7 @@ selects a paid restoration for the next aimed or SELF activation. Move into clea
 before growing. The emergency command restores only yourself and does not need the ray
 or crystals.
 
-![Quarter-size view in Hytale](assets/screenshots/quarter-size.png)
+![Quarter-size view in Hytale](assets/screenshots/quarter-view.png)
 
 *Native Hytale 0.7.4: SELF at 25% lowers the viewpoint and spends one crystal.*
 
@@ -50,8 +50,8 @@ your game patch and read its release notes. No downloadable release is promised 
 the source branch or guide.
 
 The ray can disappear after free restoration; selecting another hotbar slot and then
-the ray recovers it. Full camera, visual and listening acceptance is unfinished.
-Real second-client behavior and the ordinary acquisition route remain unverified.
+the ray recovers it. Single-player gameplay and the corrected ore have been playtested in Hytale.
+Real second-client behavior and the full ordinary acquisition route remain unverified.
 The ray does not shrink blocks, enlarge beyond original size or rewrite existing caves.
 New terrain generation may cause pauses. See the guide's troubleshooting page.
 
