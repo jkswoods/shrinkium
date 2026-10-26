@@ -1,0 +1,6 @@
+:root { --pub-accent: #713b9c; --pub-accent-ink: #ffffff; --pub-link: #613080; --primary-color: #713b9c; --link-color: #613080; --link-color-hover: #41215b; }
+.sidebar .logo img { border-radius: 12px; }
+.docmd-hero { padding-top: 1rem; }
+a.docmd-button:hover { background: #542c75; }
+img { height: auto; }
+button.sidebar-menu-button { border: 0; background: transparent; color: inherit; cursor: pointer; font: inherit; padding: 0; }

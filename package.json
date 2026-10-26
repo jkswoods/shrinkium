@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "docmd build && python3 tools/finalize_site.py",
+    "check": "python3 tools/audit_site.py",
+    "dev": "docmd dev"
+  },
+  "dependencies": {
+    "@docmd/core": "0.9.8"
+  }
+}

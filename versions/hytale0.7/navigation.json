@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Overview",
+    "path": "/",
+    "icon": "house"
+  },
+  {
+    "title": "Installation",
+    "path": "/installation",
+    "icon": "download"
+  },
+  {
+    "title": "First steps",
+    "path": "/getting-started",
+    "icon": "footprints"
+  },
+  {
+    "title": "Using the ray",
+    "path": "/ray",
+    "icon": "crosshair"
+  },
+  {
+    "title": "Crystals and recipes",
+    "path": "/recipes",
+    "icon": "gem"
+  },
+  {
+    "title": "Safe restoration",
+    "path": "/restoration",
+    "icon": "shield-check"
+  },
+  {
+    "title": "Compatibility",
+    "path": "/compatibility",
+    "icon": "git-branch"
+  },
+  {
+    "title": "Troubleshooting",
+    "path": "/troubleshooting",
+    "icon": "circle-help"
+  }
+]
