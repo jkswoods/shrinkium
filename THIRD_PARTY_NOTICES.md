@@ -18,3 +18,6 @@ Optional asset authoring uses Pillow (HPND) and NumPy (BSD-3-Clause). Building t
 requires a separately obtained Hytale SDK and JDK 25. This repository currently grants
 no open-source license to Shrinkium's own code or art; no redistribution license has
 been selected.
+
+The player guide uses DocMD (@docmd/core0.9.8), licensed under MIT. Its complete
+license notice is retained in assets/publication.css and the compiled guide.
