@@ -40,6 +40,7 @@ owner's review. Maintainers handle forward/back ports and corresponding versione
 
 ## Current GitHub enforcement
 
-This private repository currently uses a GitHub plan that cannot enable branch
-rulesets. Owner review remains the contribution policy, but GitHub does not enforce
-the requested review/force-push/deletion ruleset here. CODEOWNERS records the reviewer.
+The active **Hytale support branch reviews** ruleset covers every `hytale*` branch
+and `docs`. It requires one approving code-owner review, dismisses stale approvals,
+requires resolved review conversations, and blocks force pushes and branch deletion.
+Only `@jkswoods` has the owner bypass for their authorized work.

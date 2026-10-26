@@ -7,7 +7,7 @@ sizes and a way back to your original size.
 
 **Hytale 0.7 · declared compatibility >=0.7.4 <0.8.0 · single-player playtested**
 
-[Player guide](https://github.com/jkswoods/shrinkium/blob/docs/versions/hytale0.7/index.md)
+[Player guide](https://jkswoods.github.io/shrinkium/)
 · [Available files](https://github.com/jkswoods/shrinkium/releases)
 · [Report an issue](https://github.com/jkswoods/shrinkium/issues)
 
