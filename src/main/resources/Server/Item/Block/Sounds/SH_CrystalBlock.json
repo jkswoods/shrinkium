@@ -1,0 +1,9 @@
+{
+  "SoundEvents": {
+    "Walk": "SH_Select",
+    "Land": "SH_Select",
+    "Hit": "SH_Select",
+    "Break": "SH_Select",
+    "Build": "SH_Select"
+  }
+}

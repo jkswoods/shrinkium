@@ -1,0 +1,10 @@
+{
+  "modId": "Shrinkium",
+  "version": "0.1.0-dev.9",
+  "hytaleFamily": "0.7",
+  "serverVersion": ">=0.7.4 <0.8.0",
+  "sdkVersion": "0.7.4",
+  "sdkSha256": "23fad4c8d42b73b4139540bbae26ca0b8a43388f1e07e7b423d616e81834fa79",
+  "javaVersion": 25,
+  "channel": "private"
+}

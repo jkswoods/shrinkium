@@ -1,0 +1,7 @@
+{
+  "Parent": "ISS_Default",
+  "SoundEvents": {
+    "Drag": "SH_HandlingCue",
+    "Drop": "SH_HandlingCue"
+  }
+}

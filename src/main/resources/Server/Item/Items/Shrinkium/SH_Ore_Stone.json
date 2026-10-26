@@ -1,0 +1,50 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.SH_Ore_Stone.name"
+  },
+  "Icon": "Icons/Items/SH_Ore_Stone.png",
+  "Categories": [
+    "Blocks.Ores"
+  ],
+  "MaxStack": 25,
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "SH_Handling",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "CubeWithModel",
+    "CustomModel": "Items/Shrinkium/OreOutcrops.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Shrinkium/Atlas.png",
+        "Weight": 1
+      }
+    ],
+    "Textures": [
+      {
+        "All": "BlockTextures/Rock_Stone.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Stone",
+    "RandomRotation": "YawStep90",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "OreCopper",
+        "DropList": {
+          "Container": {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "SH_Crystal",
+              "QuantityMin": 2,
+              "QuantityMax": 2
+            }
+          }
+        }
+      }
+    },
+    "BlockParticleSetId": "Ore",
+    "ParticleColor": "#b273e8",
+    "PhysicalMaterialId": "Stone",
+    "BlockSoundSetId": "SH_CrystalBlock"
+  }
+}

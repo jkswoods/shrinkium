@@ -1,0 +1,9 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "SH_Impact"
+    }
+  ],
+  "LifeSpan": 0.5,
+  "CullDistance": 40
+}

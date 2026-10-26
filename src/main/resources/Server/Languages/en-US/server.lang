@@ -1,0 +1,5 @@
+items.SH_Crystal.name = Shrinkium Crystal
+items.SH_Crystal.description = Cave-grown crystal. One successful ray size change per crystal.
+items.SH_Ore_Stone.name = Shrinkium Crystal Ore
+items.SH_Ray.name = Shrink Ray
+items.SH_Ray.description = Primary: aimed shot. Secondary: choose size or self target. One crystal per successful change. Free emergency self restore: /shrinkium restore

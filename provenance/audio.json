@@ -1,0 +1,102 @@
+{
+  "provider": "ElevenLabs connected generation",
+  "model": "eleven_text_to_sound_v2",
+  "cues": [
+    {
+      "family": "fire",
+      "prompt": "A short single magical science shrink-ray shot for a fantasy adventure game: tactile brass trigger clack, compact warm crystalline violet energy pulse, airy descending pitch zip, tiny glassy impact sh",
+      "model": "eleven_text_to_sound_v2",
+      "duration": 1.36,
+      "settings": [
+        {
+          "label": "Duration seconds",
+          "value": "1.4"
+        },
+        {
+          "label": "Prompt influence",
+          "value": "0.65"
+        },
+        {
+          "label": "Loop",
+          "value": "False"
+        }
+      ],
+      "source_sha256": "d7db20c4e2d27bb6c817347dd5381ef5480a32586398cf78748df79499d6c8c5",
+      "runtime_path": "src/main/resources/Common/Sounds/Shrinkium/fire.ogg",
+      "runtime_sha256": "9250cf8c82df833e9e3318cb4d73145af8cbeaf8d5a053fa2fac00599d8d77fe",
+      "export": "44100Hz mono spatial / stereo handling libsndfile Vorbis default; gain -4dB, limiter 0.65; no pitch/time edits"
+    },
+    {
+      "family": "restore",
+      "prompt": "One short fantasy science device restoration sound: a warm soft rising crystalline whoosh expanding gently, tiny brass latch click and resolved rounded chime, settles to silence within 1.3 seconds. Cl",
+      "model": "eleven_text_to_sound_v2",
+      "duration": 1.28,
+      "settings": [
+        {
+          "label": "Duration seconds",
+          "value": "1.3"
+        },
+        {
+          "label": "Prompt influence",
+          "value": "0.65"
+        },
+        {
+          "label": "Loop",
+          "value": "False"
+        }
+      ],
+      "source_sha256": "6db1dcf00382cf92d0f617b4d23011e0ec1f3fac1a95c3059c3527189591e494",
+      "runtime_path": "src/main/resources/Common/Sounds/Shrinkium/restore.ogg",
+      "runtime_sha256": "adf70e0668773c75379c66dc62eaab2c7c0f27bfad94c0eb159819004c053cae",
+      "export": "44100Hz mono spatial / stereo handling libsndfile Vorbis default; gain -4dB, limiter 0.65; no pitch/time edits"
+    },
+    {
+      "family": "select",
+      "prompt": "Single delicate tactile fantasy tool selector click: tiny brass detent, soft violet glass crystal tick with a rounded warm plink, very short dry isolated game sound, 0.6 seconds including decay. Subtl",
+      "model": "eleven_text_to_sound_v2",
+      "duration": 0.6,
+      "settings": [
+        {
+          "label": "Duration seconds",
+          "value": "0.6"
+        },
+        {
+          "label": "Prompt influence",
+          "value": "0.7"
+        },
+        {
+          "label": "Loop",
+          "value": "False"
+        }
+      ],
+      "source_sha256": "9118fc5b31ef3041264be2751aa1774f20c99c745e2fa28389fd5cb281579b81",
+      "runtime_path": "src/main/resources/Common/Sounds/Shrinkium/select.ogg",
+      "runtime_sha256": "74d4613a4f54baac3bb2b9d999f2fc7c476023f15fee5dbe814bf8ab26fa7642",
+      "export": "44100Hz mono spatial / stereo handling libsndfile Vorbis default; gain -4dB, limiter 0.65; no pitch/time edits"
+    },
+    {
+      "family": "select",
+      "prompt": "Single delicate tactile fantasy tool selector click: tiny brass detent, soft violet glass crystal tick with a rounded warm plink, very short dry isolated game sound, 0.6 seconds including decay. Subtl",
+      "model": "eleven_text_to_sound_v2",
+      "duration": 0.6,
+      "settings": [
+        {
+          "label": "Duration seconds",
+          "value": "0.6"
+        },
+        {
+          "label": "Prompt influence",
+          "value": "0.7"
+        },
+        {
+          "label": "Loop",
+          "value": "False"
+        }
+      ],
+      "source_sha256": "9118fc5b31ef3041264be2751aa1774f20c99c745e2fa28389fd5cb281579b81",
+      "runtime_path": "src/main/resources/Common/Sounds/Shrinkium/handlingcue.ogg",
+      "runtime_sha256": "39ee598f51b59fa7cd66166193291badd85a657bcabe0f0075d72a600efb2a0c",
+      "export": "44100Hz mono spatial / stereo handling libsndfile Vorbis default; gain -4dB, limiter 0.65; no pitch/time edits"
+    }
+  ]
+}

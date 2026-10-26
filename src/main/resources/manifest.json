@@ -1,0 +1,9 @@
+{
+  "Group": "Shrinkium",
+  "Name": "Shrinkium",
+  "Version": "0.1.0-dev.9",
+  "ServerVersion": ">=0.7.4 <0.8.0",
+  "Description": "Private crystal-powered shrinking ray prototype; native acceptance pending.",
+  "Main": "dev.shrinkium.ShrinkiumPlugin",
+  "IncludesAssetPack": true
+}

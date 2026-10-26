@@ -1,0 +1,52 @@
+{
+  "RenderMode": "Erosion",
+  "ParticleRotationInfluence": "Billboard",
+  "LinearFiltering": false,
+  "LightInfluence": 0,
+  "MaxConcurrentParticles": 14,
+  "ParticleLifeSpan": {
+    "Min": 0.5,
+    "Max": 0.5
+  },
+  "SpawnBurst": true,
+  "TotalParticles": {
+    "Min": 14,
+    "Max": 14
+  },
+  "Particle": {
+    "Texture": "Particles/Shrinkium/Beam.png",
+    "InitialAnimationFrame": {
+      "Opacity": 1,
+      "Color": "#ffffff",
+      "Scale": {
+        "X": {
+          "Min": 0.16,
+          "Max": 0.16
+        },
+        "Y": {
+          "Min": 0.16,
+          "Max": 0.16
+        }
+      }
+    },
+    "Animation": {
+      "100": {
+        "Opacity": 0
+      }
+    }
+  },
+  "InitialVelocity": {
+    "Speed": {
+      "Min": 0.3,
+      "Max": 1.2
+    },
+    "Yaw": {
+      "Min": -180,
+      "Max": 180
+    },
+    "Pitch": {
+      "Min": -180,
+      "Max": 180
+    }
+  }
+}

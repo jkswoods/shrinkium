@@ -1,0 +1,70 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.SH_Ray.name",
+    "Description": "server.items.SH_Ray.description"
+  },
+  "Icon": "Icons/Items/SH_Ray.png",
+  "Model": "Items/Shrinkium/Ray.blockymodel",
+  "Texture": "Items/Shrinkium/RayAtlas.png",
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      0,
+      0,
+      0
+    ]
+  },
+  "PlayerAnimationsId": "Crossbow",
+  "Categories": [
+    "Items.Tools"
+  ],
+  "MaxStack": 1,
+  "ItemSoundSetId": "SH_Handling",
+  "Utility": {
+    "Compatible": true
+  },
+  "Interactions": {
+    "Primary": {
+      "Interactions": [
+        {
+          "Type": "SH_Ray",
+          "RunTime": 0
+        }
+      ]
+    },
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "SH_Ray",
+          "RunTime": 0
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "SH_Crystal",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Workbench",
+        "Categories": [
+          "Workbench_Tools"
+        ]
+      }
+    ],
+    "TimeSeconds": 4
+  }
+}

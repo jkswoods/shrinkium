@@ -1,0 +1,33 @@
+$C = "../../Common.ui";
+@ButtonStyle = TextButtonStyle(
+ Default: (Background: (TexturePath: "Button.png", Border: 12), LabelStyle: (FontSize: 20, TextColor: #e9edf2, HorizontalAlignment: Center, VerticalAlignment: Center, RenderBold: true)),
+ Hovered: (Background: (TexturePath: "Hover.png", Border: 12), LabelStyle: (FontSize: 20, TextColor: #ffffff, HorizontalAlignment: Center, VerticalAlignment: Center, RenderBold: true)),
+ Pressed: (Background: (TexturePath: "Pressed.png", Border: 12), LabelStyle: (FontSize: 20, TextColor: #e8c8ff, HorizontalAlignment: Center, VerticalAlignment: Center, RenderBold: true))
+);
+$C.@PageOverlay {
+ Group #Panel {
+  Anchor: (Width: 600, Height: 500); Background: (TexturePath: "Panel.png", Border: 20); Padding: (Full: 28); LayoutMode: Top;
+  Label { Anchor: (Height: 62); Text: "SHRINKIUM"; Style: (FontSize: 38, TextColor: #f4f2ef, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center); }
+  Group { Anchor: (Height: 2); Background: #65727e; }
+  Label { Anchor: (Height: 45); Text: "CHOOSE TARGET SIZE"; Style: (FontSize: 20, TextColor: #cbd3dc, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center); }
+  Group { Anchor: (Height: 60); LayoutMode: Left;
+   TextButton #B75 { Anchor: (Width: 172); FlexWeight: 1; Style: @ButtonStyle; Text: "75%"; }
+   Group { Anchor: (Width: 10); }
+   TextButton #B50 { Anchor: (Width: 172); FlexWeight: 1; Style: @ButtonStyle; Text: "50%"; }
+   Group { Anchor: (Width: 10); }
+   TextButton #B25 { Anchor: (Width: 172); FlexWeight: 1; Style: @ButtonStyle; Text: "25%"; }
+  }
+  Label #Selected { Anchor: (Height: 28); Style: (FontSize: 14, TextColor: #d5a6ff, HorizontalAlignment: Center, VerticalAlignment: Center); }
+  TextButton #B100 { Anchor: (Height: 52); Style: @ButtonStyle; Text: "RESTORE ORIGINAL"; }
+  Group { Anchor: (Height: 12); }
+  Label { Anchor: (Height: 52); Text: "1 crystal per successful size change. Misses, invalid targets and no-ops are free."; Style: (FontSize: 17, TextColor: #c1cbd5, HorizontalAlignment: Center, VerticalAlignment: Center, Wrap: true); }
+  Group { Anchor: (Height: 12); }
+  Group { Anchor: (Height: 54); LayoutMode: Left;
+   TextButton #BSelf { FlexWeight: 1; Style: @ButtonStyle; Text: "SELF"; }
+   Group { Anchor: (Width: 16); }
+   TextButton #BClose { FlexWeight: 1; Style: @ButtonStyle; Text: "CLOSE"; }
+  }
+  Label { Anchor: (Height: 32); Text: "Primary: aimed shot  |  Secondary: controls"; Style: (FontSize: 14, TextColor: #9caab7, HorizontalAlignment: Center, VerticalAlignment: Center); }
+  Label { Anchor: (Height: 24); Text: "Free emergency self restore: /shrinkium restore"; Style: (FontSize: 13, TextColor: #bda6d2, HorizontalAlignment: Center, VerticalAlignment: Center); }
+ }
+}

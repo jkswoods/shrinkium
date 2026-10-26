@@ -1,0 +1,10 @@
+{
+  "models": "Original Shrinkium model, painted atlas and icon sources in tools/assets.py and tools/ray_v2.py",
+  "promotional_images": {
+    "provider": "OpenAI image generation",
+    "banner": "Original Shrinkium cinematic artwork using the ray source model and suite style reference",
+    "logo": "Original crystal/brass cage identity"
+  },
+  "native_screenshots": "Curated Hytale0.7.4 captures. ray-controls shows the unchanged controls with the earlier ray appearance; ray-in-hand and quarter-size show the current model.",
+  "stock_assets": "Native Hytale assets are referenced by asset ID and are not included as game files. Screenshots and the rendered native stone host depict Hytale content."
+}

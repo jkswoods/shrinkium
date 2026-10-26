@@ -1,0 +1,12 @@
+/build/
+/art/source/
+/art/previews/
+/node_modules/
+/site/
+/.publication-policy.json
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+.env
+.env.*

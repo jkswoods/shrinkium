@@ -1,0 +1,9 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "SH_Beam"
+    }
+  ],
+  "LifeSpan": 0.22,
+  "CullDistance": 40
+}
