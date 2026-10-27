@@ -15,7 +15,7 @@ size, with a safe route back to normal.
 
 ::: card title:"Hytale 0.7 · Latest supported family" icon:git-branch
 Declared compatibility: **>=0.7.4 <0.8.0**. Native observations currently cover
-**Hytale 0.7.4**. This is a private development mod with unfinished acceptance checks.
+**Hytale 0.7.4**. The ray and corrected ore have been playtested in single-player; see the guide for current limits.
 
 [Open this guide](/hytale0.7/)
 ::: /card
