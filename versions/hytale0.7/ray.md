@@ -29,7 +29,7 @@ baselines and targets controlled by a foreign scale effect are refused.
 
 The size transition lasts about 0.85 seconds. Growth checks the space around the target
 and can pause when it becomes obstructed. The original baseline is captured once;
-setting50% twice does not produce25%. Repeated rapid input is not a way to stack sizes.
+setting 50% twice does not produce 25%. Repeated rapid input is not a way to stack sizes.
 
 ## What to expect visually
 
